@@ -21,13 +21,23 @@
             max-width: 100px;
             margin-bottom: 10px;
         }
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
     </style>
 </head>
 <body>
     <!-- Header -->
-    <header class="header text-center">
-        <img src="chand pic.jpg" alt="Logo">
-        <h2>Annual Performance</h2>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="chand pic.jpg" alt="Logo">
+                <h2 class="text-center">Annual Performance</h2>
+            </div>
+        </div>
     </header>
 
     <div class="container mt-5 mb-5">
